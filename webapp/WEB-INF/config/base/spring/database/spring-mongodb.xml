@@ -24,7 +24,7 @@
                 write-fsync="true"/>
     </mongo:mongo>
 
-    <mongo:repositories base-package="com.bf.**.repository" />
+    <mongo:repositories base-package="com.mywallet.**.repository" />
 
     <bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
         <constructor-arg ref="mongo"/>
